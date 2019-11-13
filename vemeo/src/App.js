@@ -8,9 +8,11 @@ function App() {
     <div>
       {/* Div container for Monsoon */}
       <div className="wrapperTwo">
+          {/*Movie Image*/}
             <img src="https://i.vimeocdn.com/video/595198868_505x160.jpg"
                   alt="new"
                  className="center"/>
+          {/*Movie Name and Summary */}
             <div style={{textAlign: 'left', width: '30%',  paddingLeft: "30px" }}>
                 <h2  > MONSOON III</h2>
                 <p>
@@ -21,11 +23,11 @@ function App() {
                 </p>
             </div>
       </div>
-
+        {/* Div container for Beams */}
       <div className="beams">
-          {/* Div container for Beams */}
+          {/*Movie Name and Summary */}
           <div style={{textAlign: 'left', width: '35%', paddingRight: "30px", color: 'white' }}>
-            <h2 style={{fontColor: 'white'}}> BEAMS</h2>
+              <h2 style={{fontColor: 'white'}}> BEAMS</h2>
             <p>
               Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
               dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
@@ -33,6 +35,7 @@ function App() {
               sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
             </p>
           </div>
+          {/*Movie Image*/}
           <img src="https://i.vimeocdn.com/video/589972810_530x315.jpg"
                alt="new"
                className="center"/>
@@ -40,9 +43,11 @@ function App() {
 
       <div className="Move2">
         {/* Div container for Move2 */}
+          {/*Movie Image*/}
         <img src="https://i.vimeocdn.com/video/590587169_530x315.jpg"
              alt="new"
              className="center"/>
+          {/*Movie Name and Summary */}
         <div style={{textAlign: 'left', width: '35%', paddingLeft: "30px" , color: 'white'}}>
           <h2  > MOVE 2</h2>
           <p>

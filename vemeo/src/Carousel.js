@@ -60,10 +60,11 @@ const content = [
     }
 ];
 
+{/*Buy Button navigates to google movies*/}
 function onClick() {
     window.location.href="https://play.google.com/store/movies?hl=en_US";
 }
-
+{/*Trailer Button navigates to rotten tomatoes*/}
 function onClickTwo() {
     window.location.href="https://www.rottentomatoes.com/trailers/";
 }
@@ -80,12 +81,15 @@ function Carousel() {
                     <div
                         key={index}
                         className="slider-content">
+                        {/*Blurred Out background*/}
                         <div className={item.background}></div>
                         <div className="wrapper">
+                            {/*Movie Image*/}
                             <img style={{ width: '15%',
                                 height: '80%',alignItems: 'center', paddingBottom: '10%'}} src={item.image}
                                  alt="new"
                                  className="center"/>
+                            {/*Movie Name and Summary*/}
                             <div style={{textAlign: 'left', width: '40%',  paddingLeft: "30px", paddingBottom: "10%", flexWrap: 'nowrap' }}>
                                 <h2 style={{color: 'white', fontFamily: "Arial"}}>{item.title}</h2>
                                 <p style={{color: 'white', fontFamily: "Courier"}}>{item.description}</p>
