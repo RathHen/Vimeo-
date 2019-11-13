@@ -9,7 +9,7 @@ function App() {
       {/* Div container for Monsoon */}
       <div className="wrapperTwo">
             <img src="https://i.vimeocdn.com/video/595198868_505x160.jpg"
-                 alt="new"
+                  alt="new"
                  className="center"/>
             <div style={{textAlign: 'left', width: '30%',  paddingLeft: "30px" }}>
                 <h2  > MONSOON III</h2>

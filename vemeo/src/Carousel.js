@@ -83,7 +83,7 @@ function Carousel() {
                         <div className={item.background}></div>
                         <div className="wrapper">
                             <img style={{ width: '15%',
-                                height: '15%',alignItems: 'center',}} src={item.image}
+                                height: '80%',alignItems: 'center', paddingBottom: '10%'}} src={item.image}
                                  alt="new"
                                  className="center"/>
                             <div style={{textAlign: 'left', width: '40%',  paddingLeft: "30px", paddingBottom: "10%", flexWrap: 'nowrap' }}>
